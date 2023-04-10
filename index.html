@@ -12,19 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/js.js"></script>
+    <script src="js/js.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/css.css">
     <link rel="icon" href="img/icon.png" />
 
     <!--bxslider link-->
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css"/>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <header>
-        <h1 id="info"></h1>
         <div id="left-fixed">
-            <a href="#"><img src="img/logo.png" style="display:block;"></a>
+            <a href="#"><img alt="로고" src="img/logo.png" style="display:block;"></a>
             <span class="menu-hover">
                 <a href="#">
                     MENU
@@ -36,8 +36,8 @@
             <span><a href="#">로그인</a></span>
             <span><a href="#">회원가입</a></span>
             <div id="s-c">
-                <a href="#"><img src="img/bag_btn.png"></a>
-                <a href="#"><img src="img/search_btn.png"></a>
+                <a href="#"><img alt="장바구니" src="img/bag_btn.png"></a>
+                <a href="#"><img alt="검색" src="img/search_btn.png"></a>
             </div>
         </div>
     </header>
@@ -78,7 +78,7 @@
         <div class="comm">
             <h3>COMMUNITY</h3>
             <ul>
-                <li><a href="#">NOTICE</a></li></a>
+                <li><a href="#">NOTICE</a></li>
                 <li><a href="#">Q&A</a></li>
                 <li><a href="#">EVENT</a></li>
                 <li><a href="#">REVIEW</a></li>
@@ -95,6 +95,7 @@
     </nav>
 
     <section id="keyimage">
+        <h1 class="hide">메인 이미지</h1>
         <div id="slide-contents">
             <div id="sd1" class="slide">
                 <div class="key-txt">
@@ -106,21 +107,21 @@
             <div id="sd2" class="slide">
                 <div class="key-txt">
                     <span>NEW</span>
-                    <h1>LOOK BOOK PALETTE<br>BUY1,GET1</h1>
+                    <h2>LOOK BOOK PALETTE<br>BUY1,GET1</h2>
                     <p>2022 1st Capsule Collection 워시드 핑크</p>
                 </div>
             </div>
             <div id="sd3" class="slide">
                 <div class="key-txt">
                     <span>NEW</span>
-                    <h1>프로테일러 비내추럴 쿠션</h1>
+                    <h2>프로테일러 비내추럴 쿠션</h2>
                     <p>관리받은 듯 강력한 스킨케어링 효과의 #반질쿠션</p>
                 </div>
             </div>
             <div id="sd4" class="slide">
                 <div class="key-txt">
                     <span>NEW</span>
-                    <h1>꾸띠르 립틴트 듀이 글로이</h1>
+                    <h2>꾸띠르 립틴트 듀이 글로이</h2>
                     <p>촉촉한 물광 립 스타일 연출</p>
                 </div>
             </div>
@@ -128,23 +129,24 @@
     </section>
         
     <section id="pro-tailor">
-        <p class="pro-txt">PRO TAILOR</p>
+        <h1 class="pro-txt">프로테일러 상품 소개</h1>
         <div class="inner">
             <div id="pro-left">
-                <img src="img/pro1.jpg" width="650px">
+                <img alt="PRO TAILOR 1" src="img/pro1.jpg" width="650px">
             </div>
             <div id="pro-right">
-                <img src="img/pro2.png">
+                <img alt="PRO TAILOR 2" src="img/pro2.png">
             </div>
         </div>
         <p class="be-txt">BE VELVET</p>
     </section>
     
     <section id="be-velvet">
+        <h1 class="hide">비 벨벳 상품 소개</h1>
         <div id="be-bg">
             <div id="be-top">
-                <img src="img/be1.jpg">
-                <p class="look-txt">BE VELVEL LOOK</p>
+                <img alt="BE VELVEL1" src="img/be1.jpg">
+                <p class="look-txt">BE VELVEL LOOK</ㅔ>
             </div>
             <div class="inner">
                 <div class="be-imgs">
@@ -155,6 +157,7 @@
         </div>
     </section>
     <section id="water">
+        <h1 class="hide">워터벨벳 상품 소개</h1>
         <div class="inner">
             <div class="water-txt">
                 <span class="w-txt">W</span>
@@ -176,19 +179,20 @@
             <p class="water-typing"></p>
         </div>
         <div id="w-img1">
-            <img src="img/water1.jpg">
+            <img alt="watervelvet1" src="img/water1.jpg">
         </div>
         <div id="w-img2">
-            <img src="img/water2.jpg">
+            <img alt="watervelvet2" src="img/water2.jpg">
         </div>
         <div class="w-img3">
-            <img src="img/water3.jpg">
+            <img alt="watervelvet3" src="img/water3.jpg">
         </div>
     </section>
     <section id="peach">
+        <h1 class="hide">피치 베이스 상품 소개</h1>
         <div id="pe-bg">
             <div id="pe-top">
-                <img src="img/peach1.jpg">
+                <img alt="peach1" src="img/peach1.jpg">
                 <p class="peach-txt">PEACH BASE LOOK</p>
             </div>
             
@@ -232,7 +236,7 @@
             <div class="foot-2">
                     <ul>
                         <li class="small">MAKE UP</li>
-                        <li class="icon-right"><a href="#"><img src="img/ico_feel.png"></a></li>
+                        <li class="icon-right"><a href="#"><img alt="상담하기" src="img/ico_feel.png"></a></li>
                         <li class="bold">BEAUTY COUNSELING</li>
                         <li class="gray">언제어디서든 언택트!<br>아티스트와 상담하세요!</li>
                     </ul>
@@ -246,12 +250,12 @@
             </div>
             <div class="foot-4">
                 <ul>
-                    <li><a href="#"><img src="img/ico_insta.png"></a></li>
-                    <li><a href="#"><img src="img/ico_facebook.png"></a></li>
-                    <li class="kakao"><a href="#"><img src="img/ico_kakao.png"></a></li>
-                    <li><a href="#"><img src="img/ico_blog.png"></a></li>
-                    <li><a href="#"><img src="img/ico_twitter.png"></a></li>
-                    <li><a href="#"><img src="img/ico_mail.png"></a></li>
+                    <li><a href="#"><img alt="인스타그램" src="img/ico_insta.png"></a></li>
+                    <li><a href="#"><img alt="페이스북" src="img/ico_facebook.png"></a></li>
+                    <li class="kakao"><a href="#"><img alt="카카오톡" src="img/ico_kakao.png"></a></li>
+                    <li><a href="#"><img alt="블로그" src="img/ico_blog.png"></a></li>
+                    <li><a href="#"><img alt="트위터" src="img/ico_twitter.png"></a></li>
+                    <li><a href="#"><img alt="이메일" src="img/ico_mail.png"></a></li>
                 </ul>
                 <div class="foot-login">
                     <span><a href="#">로그인</a></span>
