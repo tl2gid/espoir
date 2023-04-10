@@ -2,6 +2,8 @@
     *{margin:0;padding:0;font-family: 'Gothic A1', sans-serif;text-decoration: none; list-style-type: none;}
     a{color:inherit;}
     .hide{display:none}
+    p{font-family: 'Oswald', sans-serif;}
+    h1{font-weight: normal;}
 
 /*---------------------------------*/
 
@@ -266,6 +268,9 @@
         padding-top:150px;
         margin-bottom:200px;
         position:relative;
+    }
+    #be-top img{
+        width: 650px;
     }
     .be-imgs{
         width:100%;
